@@ -3,12 +3,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-// #include "evolve.c"
-// #include "crossover.c"
-// #include "fitness.c"
-// #include "readwriteppm.c"
-// #include "population.c"
-// #include "mutate.c"
 
 int main(int argc, char **argv) {
   // Process input parameters
