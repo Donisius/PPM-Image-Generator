@@ -39,8 +39,3 @@ PPM_IMAGE *evolve_image(const PPM_IMAGE *image, int num_generations, int populat
   printf("fitness:%f \n",pop[1].fitness );
   return fittest;
 }
-
-void free_image(PPM_IMAGE *p)
-{
-	free(p);
-}
