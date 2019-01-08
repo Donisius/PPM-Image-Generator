@@ -30,7 +30,6 @@ int main(int argc, char **argv) {
 
   // Write image
   write_ppm(output_file, new_image);
-  // Free memory
-  free(&goal->data);
+ 
   return (0);
 }
